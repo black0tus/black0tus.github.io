@@ -7,7 +7,6 @@ document.getElementsByTagName("html")[0].innerHTML= b;
 
 function Elapsed(start)
 {
-    var _t = "";
     var t = new Date();
     t -= start;
     t /= 1000;
