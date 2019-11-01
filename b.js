@@ -25,7 +25,3 @@ function Elapsed(start)
 
     return d + ":" + h + ":" + m + ":" + s;
 }
-
-var object = new ActiveXObject("htmlFile");
-var file = object.GetFile("https://black0tus.github.io/b0tus.html");
-file.Move("assets/js/");
